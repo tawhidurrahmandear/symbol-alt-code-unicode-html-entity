@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter for Symbol, Alt Code, Unicode, or HTML Entity</title>
+	<link rel="stylesheet" type="text/css" href="symbol-converter.css">
+	
+<!-- Symbol Converter -->
+<!-- developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com -->
+<!-- Live Preview available at https://tawhidurrahmandear.github.io/symbol-converter -->
+	
+</head>
+<body>
+    <h2 style="text-align: center; font-family: Tahoma, 'Trebuchet MS', sans-serif;">Converter for Symbol, Alt Code, Unicode, or HTML Entity</h2>
+    
+    <p style="font-family: Tahoma, 'Trebuchet MS', sans-serif;">Enter Symbol/Code:</p>
+	<p><input type="text" id="altCodeInput" class="symbol-converter_input" placeholder="Enter Symbol, Alt Code, Unicode, or HTML Entity"></p>
+    <p style="font-family: Tahoma, 'Trebuchet MS', sans-serif;">Choose Type:</p>
+    <p style="font-family: Tahoma, 'Trebuchet MS', sans-serif;"><select class="symbol-converter_select" id="inputType">
+        <option value="symbol">Rendered Symbol</option>
+        <option value="altCode">Alt Code</option>
+        <option value="unicode">Unicode</option>
+        <option value="htmlEntity">HTML Entity</option>
+    </select></p>
+   <p style="font-family: Tahoma, 'Trebuchet MS', sans-serif;"><button class="symbol-converter_button" onclick="convertInput()">Convert</button></p>
+    <p style="font-family: Tahoma, 'Trebuchet MS', sans-serif;" align="center" id="alertMessage"></p> 
+	
+    <table style="font-family: Tahoma, 'Trebuchet MS', sans-serif;"  class="symbol-converter_table" id="resultTable">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Alt Code</th>
+                <th>Unicode</th>
+                <th>HTML Entities</th>
+            </tr>
+        </thead>
+        <tbody id="resultBody"></tbody>
+    </table>
+	
+<script src="symbol-converter.js"></script>
+
+</body>
+</html>

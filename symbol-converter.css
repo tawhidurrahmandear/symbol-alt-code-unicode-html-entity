@@ -1,0 +1,109 @@
+ /* Symbol Converter */
+ /* developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com */
+ /* Live Preview available at https://tawhidurrahmandear.github.io/symbol-converter */
+
+
+/* Styles */
+
+        .symbol-converter_table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .symbol-converter_table table, .symbol-converter_table th, .symbol-converter_table td {
+            border: 1px solid #6600FF;
+        }
+        .symbol-converter_table th, .symbol-converter_table td {
+            padding: 10px;
+            text-align: center;
+        }
+        #resultTable {
+            display: none;
+        }
+        #alertMessage {
+            color: red;
+            display: none;
+        }
+		
+ 
+/* Symbol Converter Styles */
+
+/* Input & Select Styles */
+.symbol-converter_input, .symbol-converter_select {
+  font-family: Tahoma, "Trebuchet MS", sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #6600FF;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.symbol-converter_input:focus, .symbol-converter_select:focus {
+  border-color: #6600FF;
+  outline: none;
+}
+
+/* Button Styles */
+.symbol-converter_button {
+  padding: 15px 20px;
+  background-color: #6600FF;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.symbol-converter_button:hover {
+  background-color: #e0ccff;
+  color: #000000;
+  transition: background-color 0.5s ease;
+}
+
+/* Textarea Styles */
+.symbol-converter_textarea {
+font-family: "Roboto Mono", "Source Code Pro", Consolas, Monaco, "Courier New", Courier, "Liberation Mono", monospace;
+  font-size: 14px;
+  width: 100%;
+  height: 400px;
+  padding: 25px;
+  margin-top: 20px;
+  border: 1px solid #6600FF;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #EEF3FA;
+  resize: none;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;  
+  word-wrap: break-word; 
+  overflow-x: hidden; 
+}
+
+/* Link Styles */
+#symbol-converter p a {
+  font-family: Tahoma, "Trebuchet MS", sans-serif;
+  font-size: 10pt;
+  font-weight: 700;
+  color: #0078d7;
+  text-decoration: none;
+}
+
+#symbol-converter p a:hover {
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #symbol-converter {
+    padding: 25px;
+  }
+
+  .symbol-converter_input, .symbol-converter_select, .symbol-converter_button, .symbol-converter_textarea {
+    font-size: 12px;
+  }
+}
