@@ -1,6 +1,6 @@
-// Symbol Converter
+// Converter for Symbol, Alt Code, Unicode, or HTML Entity
 // developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com 
-// Live Preview available at https://tawhidurrahmandear.github.io/symbol-converter 
+// Live Preview available at https://www.devilhunter.net/p/symbol-alt-code-unicode-html-entity.html
 
         function convertInput() {
             var input = document.getElementById("altCodeInput").value.trim();
